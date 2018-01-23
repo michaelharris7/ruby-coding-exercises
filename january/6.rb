@@ -2,9 +2,6 @@ require 'rspec'
 
 def increment_value str
   str + str.next.slice(-1)
-  # str = str.to_s.split(//)
-  # str[str.count] = str[str.count-1].next
-  # str = str.join("")
 end
 
 describe 'Increment string value sequence' do
